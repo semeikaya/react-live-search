@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+.main-input {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.mamain {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+}
+.main {
+  margin: 0px 0px 20px 20px;
+  width: 350px;
+  box-shadow: 0px 5px 10px rgb(206, 212, 214);
+  border-radius: 15px 15px;
+}
+.main img {
+  width: 100%;
+}
+
+.detail-block {
+  display: flex;
+  width: 75%;
+  height: 120px;
+
+  margin: auto;
+  margin-top: 30px;
+}
+.name-price-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+  font-size: 22px;
+  font-weight: 700;
+}
+.btn {
+  cursor: pointer;
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 30px;
+  border-radius: 10px 10px;
+  border: 3px solid rgb(52, 140, 247);
+  color: rgb(52, 140, 247);
+}
+.btn:hover {
+  background-color: rgb(52, 140, 247);
+  color: white;
+}
+.detail-btn-block {
+  position: relative;
+  margin: auto;
+}
+.desc {
+  padding-top: 30px;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  word-wrap: break-word;
+}
+.addBtn {
+  cursor: pointer;
+  margin: 30px 0px 0px 30px;
+  font-size: 20px;
+  padding: 10px 25px;
+  border: 3px solid rgb(32, 156, 57);
+  color: white;
+  background-color: rgb(32, 156, 57);
+  border-radius: 8px 8px;
+}
+
+.afterBuy {
+  margin: 30px 0px 0px 30px;
+  font-size: 20px;
+  padding: 10px 25px;
+  border: 3px solid rgb(130, 209, 146);
+  color: white;
+  background-color: rgb(130, 209, 146);
+  border-radius: 8px 8px;
+}
+
+hr {
+  width: 90%;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  color: rgb(221, 36, 36);
+  font-size: 20px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  margin: 10px 0px 0px 30px;
+}
+
+.infoblock {
+  position: absolute;
+  box-shadow: 0px 5px 10px rgb(206, 212, 214);
+  background-color: white;
+  left: 120px;
+  top: -70px;
+  width: 200px;
+  padding: 0px 5px 20px 20px;
+}
+.textInfo {
+  width: 85%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.endInfo {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+}
+.endBlock {
+  margin: auto;
+  text-align: right;
+}
+.trash-block {
+  height: 50px;
+}
+.err {
+  font-family: "Gilroy";
+  font-weight: 500;
+  color: red;
+  text-align: center;
+}
+.is-error {
+  outline: none;
+  box-shadow: 0 2px 4px red;
+  border-color: red;
+}
+
+.borderInput {
+  outline: none;
+  box-shadow: 0 2px 4px rgb(22, 130, 192);
+  border-color: rgb(139, 21, 21);
+  border: solid rgb(22, 130, 192);
+}
+input:hover {
+  outline: none;
+  box-shadow: 0 2px 4px rgb(22, 130, 192);
+  border-color: rgb(22, 130, 192);
+  border: solid rgb(22, 130, 192);
+}
+input {
+  outline: none;
+  border: 3px solid rgb(22, 130, 192);
+  padding-left: 15px;
+}
+.messageStatus {
+  font-family: "Gilroy";
+  font-weight: 500;
+  color: rgb(6, 212, 85);
+  text-align: center;
+}
+.main-input input {
+  flex: 1;
+  margin-right: 15px;
+  border-radius: 10px 10px;
+  font-size: 1.25rem;
+}
+.err-block {
+  height: 30px;
+}
+.name-sneaker {
+  word-wrap: break-word;
+}
